@@ -1,0 +1,9 @@
+build/
+tmp_output/
+cached*
+python.*
+.vscode/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
