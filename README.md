@@ -39,7 +39,7 @@ If there are some some issues, try installing pystan and any required packages i
    
 ## Simulations
 
-Data simulation is important to verify model assumptions. To simulate data and fit for bandit task, run the main script:
+Data simulation is important to verify model assumptions. To simulate data and fit for bandit task, run the main script (sim_output already contains the data, but if it does not, run the following command):
 
 ```train
 python simulations/sim_bandit3arm_combined.py pt 0 3 100
