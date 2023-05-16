@@ -20,11 +20,7 @@ wr = 7
 ## Model 3arm bandit ----------------
 
 # read individual parameter estimate data
-#rl_path = "C:/Users/Swati Rajwal/Downloads/EXPERIMENT 2 (MIA'S ONLINE GAME) ANALYSIS PIPELINE/_2_modelling/prefit_output/mod1_RL/"
-#m1_control_path = dir(rl_path,full.names = F,pattern = paste('ind.*.','control_mod1_RL','.*',sep=''))
-#m1_pain_path = dir(rl_path,full.names = F,pattern = paste('ind.*.','pain_mod1_RL','.*',sep=''))
 
-#m1C = read.csv(paste(rl_path, m1_control_path, sep=''))
 f_m1c = file.choose()  ## mydata_fit_ind_est.csv for control group
 m1C = read.csv(f_m1c)
 m1C['Group'] = rep('Controls', dim(m1C)[1])
